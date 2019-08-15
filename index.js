@@ -18,6 +18,7 @@ function greet(time){
   }else{
     hour = time.slice(0,2)
   }
+
   if (hour < 12){
     return "Good Morning";
   }else if (hour > 17){
